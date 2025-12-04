@@ -8,4 +8,6 @@ def notation():
         new = symbols[remainder] + new
     print(new)
     return notation()
-notation()
+if __name__== '__main__':
+    notation()
+
